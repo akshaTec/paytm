@@ -6,8 +6,8 @@ mongoose.connect('mongodb+srv://akshat_mongodb:MEyuENS2kaEblgKt@cluster0.s4e7d.m
 const userSchema = new mongoose.Schema({
     username: String,
     password: String,
-    firstName: String,
-    lastName: String
+    firstname: String,
+    lastname: String
 })
 
 const User = mongoose.model('User',userSchema)
